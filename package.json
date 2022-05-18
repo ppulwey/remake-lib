@@ -1,5 +1,8 @@
 {
-  "name": "remake-lib",
+  "name": "@ppulwey/remake-lib",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/ppulwey"
+  },
   "version": "0.0.1",
   "description": "This is a react library for remake",
   "scripts": {
