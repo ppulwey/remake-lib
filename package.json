@@ -3,9 +3,10 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/ppulwey"
   },
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "This is a react library for remake",
   "scripts": {
+    "publish:prod": "rm -rf dist && npm run rollup && npm publish",
     "rollup": "rollup -c",
     "test": "jest"
   },
@@ -41,5 +42,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "sass": "^1.51.0"
+  }
 }
