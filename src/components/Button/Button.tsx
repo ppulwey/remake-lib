@@ -1,4 +1,5 @@
 import React, { PropsWithChildren } from "react";
+import "./Button.css";
 
 export interface IButton {
   type: "primary" | "secondary";
