@@ -60,6 +60,7 @@ npm publish
 ```
 
 ---
+Tribute to _Alex Eagleson_
 
-For full instructions how to setup a React Library with Storybook see this great tutorial by _Alex Eagleson_ I've stolen from: https://dev.to/alexeagleson/how-to-create-and-publish-a-react-component-library-2oe?signin=true#adding-storybook
+For full instructions how to setup a React Library with Storybook see his great tutorial I've stolen from: https://dev.to/alexeagleson/how-to-create-and-publish-a-react-component-library-2oe?signin=true#adding-storybook
 ___
