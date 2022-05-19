@@ -1,5 +1,8 @@
 # React 18 Component Library with Storybook
 
+This is a sample react component library. Intalling it in your project is not very useful.
+Visit the GitHub project and follow the instuctions below to create your own library.
+
 ## Installation
 
 Use `npm` with flag `--legacy-peer-deps` to install dependencies.
@@ -116,3 +119,6 @@ Tribute to _Alex Eagleson_
 For full instructions how to setup a React Library with Storybook see his great tutorial I've stolen from: https://dev.to/alexeagleson/how-to-create-and-publish-a-react-component-library-2oe?signin=true#adding-storybook
 
 ---
+
+If you want...
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/ppulwey)

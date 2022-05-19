@@ -4,6 +4,10 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
+  "repository": {
+    "url": "https://github.com/ppulwey/remake-lib"
+  },
+  "funding": "https://www.buymeacoffee.com/ppulwey",
   "version": "0.0.6",
   "description": "This is a react library for remake",
   "scripts": {
@@ -58,6 +62,10 @@
   "module": "dist/esm/index.js",
   "files": [
     "dist"
+  ],
+  "keywords": [
+    "react",
+    "component library"
   ],
   "types": "dist/index.d.ts"
 }
