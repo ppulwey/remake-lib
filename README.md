@@ -59,7 +59,7 @@ Most of the steps from above are the same...
 
 ```json
 {
-  "name": "@YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME",
+  "name": "@YOUR_NPM_USERNAME/YOUR_REPOSITORY_NAME",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
