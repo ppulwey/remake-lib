@@ -46,7 +46,8 @@ registry=https://registry.npmjs.org/
 //npm.pkg.github.com/:_authToken=YOUR_AUTH_TOKEN
 ```
 
-> ❗️ Replace YOUR_AUTH_TOKEN with the newly generated GitHub Token, and YOUR_GITHUB_USERNAME with ... your username . Leave the `//` at the beginning of the last line 6. Run
+> ❗️ Replace YOUR_AUTH_TOKEN with the newly generated GitHub Token, and YOUR_GITHUB_USERNAME with ... your username . Leave the `//` at the beginning of the last line 
+6. Run
 
 ```
 npm publish
