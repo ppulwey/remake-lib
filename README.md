@@ -1,6 +1,6 @@
 # React 18 Component Library with Storybook
 
-This is a sample react component library. Intalling it in your project is not very useful.
+This is a sample react component library. Installing it in your project is not very useful.
 Visit the GitHub project and follow the instuctions below to create your own library.
 
 ## Installation
