@@ -40,6 +40,33 @@ registry=https://registry.npmjs.org/
 npm publish
 ```
 
+### But I want to publish to npm registry!
+Most of the steps from above are the same...
+1. same
+2. same
+3. add the following into the package.json
+```json
+{
+  "name": "@YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  ...  
+}
+```
+4. create a personal access token on npm. 
+* Click on your profile picture and then "Access Tokens"
+* Click "Generate New Token" and choose "Automation" option to bypass 2FA
+5. modify your local `.npmrc` file (https://docs.npmjs.com/cli/v7/configuring-npm/npmrc) as follows
+```json
+registry=https://registry.npmjs.org/
+//registry.npmjs.org/:_authToken=YOUR_ACCESS_TOKEN
+```
+6. same
+
+> 💡 Adding different profiles to your .npmrc file enables you to publish in different scopes e.g. `@yourusername/my-package` and `@yourcompany/my-other-package` (https://docs.npmjs.com/creating-and-publishing-scoped-public-packages)
+
 ## Consume
 When you've published the library you can find the package at your GitHub profile page under the `Packages` tab (e.g. https://github.com/ppulwey?tab=packages)
 You can install it as you're should be familiar with...
