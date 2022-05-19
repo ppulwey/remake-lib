@@ -1,5 +1,18 @@
+button {
+  border        : 0;
+  padding       : 10px;
+  border-radius : 4px;
+  text-transform: uppercase;
+  cursor        : pointer;
+  box-shadow    : rgba(0, 0, 0, 0.3) 1px 1px 5px;
+}
+
+button:active {
+  box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 5px inset;
+}
+
 .devk__btn--primary {
-  background-color: blueviolet;
+  background-color: blue;
   color           : white;
 }
 
