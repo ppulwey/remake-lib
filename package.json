@@ -4,7 +4,7 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "This is a react library for remake",
   "scripts": {
     "publish:prod": "rm -rf dist && npm run rollup && npm publish",
