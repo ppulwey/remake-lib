@@ -8,7 +8,7 @@
     "url": "https://github.com/ppulwey/remake-lib"
   },
   "funding": "https://www.buymeacoffee.com/ppulwey",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "This is a react library for remake",
   "scripts": {
     "prepublish": "rm -rf dist && npm run rollup",
