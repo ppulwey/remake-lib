@@ -11,7 +11,7 @@
   "version": "0.0.10",
   "description": "This is a react library for remake",
   "scripts": {
-    "publish": "rm -rf dist && npm run rollup && npm publish",
+    "prepublish": "rm -rf dist && npm run rollup",
     "rollup": "rollup -c",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
